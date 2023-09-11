@@ -6,7 +6,7 @@ function NavSm(){
         <div className="text-white flex items-center justify-between">
             <div>
                 <h3 className="text-xl font-bold">It All Starts Here!</h3>
-                <span className="text-gray-400 text-xs flex items-center cursor-pointer hover:text-white">Hampi <BiChevronDown /></span>
+                <span className="text-gray-400 text-xs flex items-center cursor-pointer hover:text-white">Gurgaon <BiChevronDown /></span>
 
             </div>
             <div className="w-8 h-8">
@@ -38,7 +38,7 @@ function NavLg(){
                 </div>
             </div>
             <div className="flex items-center gap-3">
-                <span className="text-gray-200 text-base flex items-center cursor-pointer hover:text-white ">Hampi <BiChevronDown /></span>
+                <span className="text-gray-200 text-base flex items-center cursor-pointer hover:text-white ">Gurgaon <BiChevronDown /></span>
                 <button className="bg-red-600 text-white px-2 py-1 text-sm rounded">Sign In</button>
                 <div className="w-8 h-8 text-white">
                     <BiMenu className="w-full h-full"/>
