@@ -11,15 +11,22 @@ const PaymentModel = ({setIsOpen, isOpen, price}) => {
   
   const launchRazorPay = () => {
     let options = {
-        key: "rzp_test_Taf4Olo2TluDGc",
+        key: "rzp_test_Kj4EJYST82KLrX",
+        key_secret: "NrIRCN3ewkqPT1UvluhpZcqH",
         amount: price * 100,
         currency: "INR",
         name: "Book My Show Clone",
         description: "Movie Purchase Or Rental",
         image: "https://i.ibb.co/zPBYW3H/imgbin-bookmyshow-office-android-ticket-png.png",
+        
         handler: () => {
             setIsOpen(false);
             alert("Payment Sucessfull");
+        },
+        prefill: {
+          name:"Pranshu ",
+          email:"pranshurawat711@gmail.com",
+          contact:"9599768908"
         },
         theme: {color: "#c4242d"},
     };

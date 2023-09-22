@@ -1,1 +1,4 @@
 API KEY : 868b8750d98c3d3972528f9044cd6d62
+RazorPay
+key_id : rzp_test_Kj4EJYST82KLrX
+key_secret : NrIRCN3ewkqPT1UvluhpZcqH
